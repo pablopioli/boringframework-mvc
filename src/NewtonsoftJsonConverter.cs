@@ -4,7 +4,7 @@ using System.Globalization;
 
 namespace Boring.Mvc
 {
-    class NewtonsoftJsonConverter : JsonConverter
+    public class NewtonsoftJsonConverter : JsonConverter
     {
         public override bool CanConvert(Type objectType)
         {
